@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+  <!-- CSRF Token -->
+  <meta name="csrf-token" content="NjtBtelVWtnIh1FnmOeQgZA9heAbIRrrFpQZSWTz">
+
+  <title>The Executors
+  </title>
+  <link rel="dns-prefetch" href="http://fonts.gstatic.com/">
+  <link href="css/app.css" rel="stylesheet">
+  <link href="css/home.css" rel="stylesheet">
+  <link href="fontawesome/css/all.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="sidemenu">
+
+    <br><br>
+    <div class="side-btn" onclick="navToggle()">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <!-- <span style="margin-left:20px;font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>-->
+    <div id="menu">
+      <div class="container">
+        <div  id="disappear" class="row">
+          <div class="mt-5 col-md-4">
+           <ul class="text-light h2 float-center fw-bold" style="list-style: none;">
+             <li class="py-3 float-center nav-item"><a class="nav-link" href="about.html">WHO ARE WE</a></li>
+             <li class="py-3 nav-item"><a class="nav-link" href="services.html">WHAT WE DO</a></li>
+             <li class="py-3 nav-item"><a class="nav-link" href="events.html">OUR WORK</a></li>
+             <li class="py-3 nav-item"><a class="nav-link" href="contact.html">CONTACT US</a></li>
+           </ul>
+           <a class=" text-md-center" href="index.html"><i class="fas fa-long-arrow-alt-left"></i> back to home</a>
+         </div>
+         <div class="mt-5 col-md-6 text-light text-md-center" id="p-slideup" onload="">
+           <h3 class="display-6">let's work Together</h3><br><br>
+           <p class="">call us: <a href="">+91 9999999999</a></p>
+           <p class="">write to us: <a href="">hello@theexecutors.co.in</a></p>
+         </div>
+       </div>
+     </div>
+   </div>
+ </nav>
+ <a href="#" class="brandfloat">
+  <img class="brand-btn" src="img/x.png">
+</a>
+<div id=app>
+  <main>
+
+    <section class="slide-wrapper">
+      <div class="car-container text-light" id="ovcar">
+        <div class="social-icon text-lg-end">
+          <ul class="text-md-center">
+            <li><a class="text-light float-start" href=""><i class="fab fa-linkedin text-light"></i></a></li>
+            <li><a class="text-light float-start" href=""><i class="fab fa-facebook-square text-light"></i></a></li>
+            <li><a class="text-light float-start" href=""><i class="fab fa-instagram-square text-light"></i></a></li>
+            <li><a class="text-light" href=""><i class="fab fa-twitter-square text-light"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <splide :options="{
+        autoplay: true,
+        isNavigation:false,
+        direction: 'ttb',
+        height:'100vh',
+      }">
+      <splide-slide>
+        <img src="img/carousel-3.png" class="d-block w-100" alt="...">
+        <div class="overcar text-white" id="textscroll">
+          <h1 class="txt font2 display-3 fw-bold" data-text="Corporate Events"></h1><br><br>
+          <p class="txt display-6 pt-3" data-text="Creating unforgettable memories"></p>
+          <button class="btn pbtn mt-5 btn-primary border-0">Learn more</button>
+          <button class="btn pbtn mt-5 btn-secondary border-0">Contact us</button>
+        </div>
+      </splide-slide>
+      <splide-slide>
+        <img src="img/pexels-pixabay.jpg" class="d-block w-100" alt="...">
+        <div class="overcar text-light" id="textscroll">
+          <h1 class="txt font2 display-3 fw-bold" data-text="Brand Activation"></h1><br><br>
+          <p class="txt display-6 pt-3" data-text="Creating unforgettable memories"></p>
+          <button class="btn mt-5 btn-primary border-0">Learn more</button>
+          <button class="btn mt-5 btn-secondary border-0">Contact us</button>
+        </div>
+      </splide-slide>
+      <splide-slide>
+        <img src="img/carousel-1.jpg" class="d-block w-100" alt="...">
+        <div class="overcar text-light" id="textscroll">
+          <h1 class="txt font2 display-3 fw-bold" data-text="Live Events"></h1><br><br>
+          <p class="txt display-6 pt-3" data-text="Creating spectacular ceremonies"></p>
+          <button class="btn mt-5 btn-primary border-0">Learn more</button>
+          <button class="btn mt-5 btn-secondary border-0">Contact us</button>
+        </div>
+      </splide-slide>
+      <splide-slide>
+        <img src="img/pexels-nicole.jpg" class="d-block w-100" alt="...">
+        <div class="overcar text-light" id="textscroll">
+          <h1 class="txt font2 display-3 fw-bold" data-text="Corporate Events"></h1><br><br>
+          <p class="txt display-6 pt-3" data-text="Creating spectacular ceremonies" ></p>
+          <button class="btn mt-5 btn-primary border-0">Learn more</button>
+          <button class="btn mt-5 btn-secondary border-0">Contact us</button>
+        </div>
+      </splide-slide>
+      <splide-slide>
+        <img src="img/pexels-helena.jpg" class="d-block w-100" alt="...">
+        <div class="overcar text-light" id="textscroll">
+          <h1 class="txt font2 display-3 fw-bold" data-text="Corporate Events"></h1><br><br>
+          <p class="txt display-6 pt-3" data-text="Creating unforgettable memories"></p>
+          <button class="btn mt-5 btn-primary border-0">Learn more</button>
+          <button class="btn mt-5 btn-secondary border-0">Contact us</button>
+        </div>
+      </splide-slide>
+    </splide>
+  </section>
+  <section class="bg-light py-2">
+    <div class="mt-5 container">
+      <div class="mx-4"> 
+        <h3 class="font2 display-5 fw-bold">Adding the <span class="text-secondary">X</span> factor to your brand</h3>
+        <p class="mt-2 h5">Executors are one of the best leading Brand communication & Entertainment company, integrating, strategy, creativity and technology to provide unique experiences.
+        Executors are the experimenters in the events, exhibitions, activations & digital space has been involved in shaping the life experiences for the brand and consumer.</p>
+      </div>
+    </div>
+    <div class="mt-5 container">
+      <div class="row c-row--flat">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-6 px-2 py-2">
+                <figure data-scroll class="h-100 c-tile c-tile--bottom shadow-sm">
+                  <a href="/work/25-transmission-private">
+                    <picture>
+                      <img src="img/portfolio/01-thumbnail.jpg" style="width: 100%;" alt="Transmission Private, London Graphic Design by Root Studio, Lincoln"/>
+                    </picture>
+                    <figcaption class="c-tile__overlay h-100">
+                      <div class="c-panel c-panel--darkover">
+                        <header class="c-panel__header">
+                          <h3 class="c-panel__title font2">BRAND ACTIVATION</h3>
+                        </header>
+                        <div class="c-panel__content">
+                          <span class="c-btn-text c-btn-text--reverse">
+                            Energizing brand through innovative & memorable customer engagement solutions
+                          </span>
+                        </div>
+                      </div>
+                    </figcaption>
+                  </a>
+                </figure>
+              </div>
+              <div class="col-md-6 px-2 py-2">
+                <figure data-scroll class="h-100 c-tile c-tile--bottom shadow-sm">
+                  <a href="/work/25-transmission-private">
+                    <picture>
+                      <img src="img/portfolio/02-thumbnail.jpg" style="width: 100%;" alt="Transmission Private, London Graphic Design by Root Studio, Lincoln"/>
+                    </picture>
+                    <figcaption class="c-tile__overlay h-100">
+                      <div class="c-panel c-panel--darkover">
+                        <header class="c-panel__header">
+                          <h3 class="c-panel__title  font2">CORPORATE EVENTS</h3>
+                        </header>
+                        <div class="c-panel__content">
+                          <span class="c-btn-text c-btn-text--reverse">
+
+                            Creating unforgettable memories for the brands through innovative and astounding concepts for Domestic and international events
+                          </span>
+                        </div>
+                      </div>
+                    </figcaption>
+                  </a>
+                </figure>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 px-2 py-2">
+                <figure data-scroll class="h-100 c-tile c-tile--bottom shadow-sm">
+                  <a href="/work/25-transmission-private">
+                    <picture>
+                      <img src="img/portfolio/03-thumbnail.jpg" style="width: 100%;" alt="Transmission Private, London Graphic Design by Root Studio, Lincoln"/>
+                    </picture>
+                    <figcaption class="c-tile__overlay h-100">
+                      <div class="c-panel c-panel--darkover">
+                        <header class="c-panel__header">
+                          <h3 class="c-panel__title  font2">LIVE EVENTS</h3>
+                        </header>
+                        <div class="c-panel__content">
+                          <span class="c-btn-text c-btn-text--reverse">
+                            Creating spectacular ceremonies and experiences to commemorate a special occasion
+                          </span>
+                        </div>
+                      </div>
+                    </figcaption>
+                  </a>
+                </figure>
+              </div>
+
+              <div class="col-md-6 px-2 py-2">
+                <figure data-scroll class="card h-100 border border-secondary border-4 text-md-center">
+                  <div class="card-body">
+                    <h3 class="font2">Our Business</h3>
+                    <p class="py-3">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <button class="mt-5 btn btn-secondary">Learn more</button>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="px-2 py-2 h-100">
+              <figure data-scroll class="h-100 c-tile c-tile--bottom shadow-sm">
+                <a href="/work/26-rspb-biosecurity-for-life">
+                  <picture>
+                    <img src="img/pexels-caio.jpg" style="width:100%;" class="h-100" alt="Branding and marketing for the RSPB" />
+                  </picture>
+                  <figcaption class="c-tile__overlay">
+                    <div class="c-panel c-panel--darkover">
+                      <header class="c-panel__header">
+                        <h3 class="c-panel__title font2">SPORTS</h3>
+                      </header>
+                      <div class="c-panel__content">
+                        <span class="c-btn-text c-btn-text--reverse">
+                         Delivering Innovative & dynamic sports based solution for high-end Brands
+                       </span>
+                     </div>
+                   </div>
+                 </figcaption>
+               </a>
+             </figure>
+           </div>
+         </div>
+
+       </div>
+       <div class="row">
+        <div class="col-md-4 px-2 py-2">
+          <div class="card h-100 bg-secondary text-md-center">
+            <div class="card-body">
+              <h3 class="font2">Title</h3>
+              <p class="py-3">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <button class="mt-5 btn btn-secondary">Button</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 px-2 py-2">
+          <figure data-scroll class="h-100 c-tile c-tile--bottom shadow-sm">
+            <a href="/work/22-the-beonna">
+              <picture>
+                <img src="img/portfolio/02-thumbnail.jpg" style="width:100%;" class="h-100" alt="Beonna heritage branding, website &amp; signage design"/>
+              </picture>
+              <figcaption class="c-tile__overlay h-100">
+                <div class="c-panel c-panel--darkover">
+                  <header class="c-panel__header">
+                    <h3 class="c-panel__title font2">DIGITAL</h3>
+                  </header>
+                  <div class="c-panel__content">
+                    <span class="c-btn-text c-btn-text--reverse">
+                      Ensuring the right conversation & conversion with maximum reach across social media.
+                    </span>
+                  </div>
+                </div>
+              </figcaption>
+            </a>
+          </figure>
+        </div>
+        <div class="col-md-4 px-2 py-2">
+          <figure data-scroll class="c-tile c-tile--bottom shadow">
+            <a href="/work/30-old-kings-head-kirton">
+              <picture>
+                <img src="img/portfolio/01-thumbnail.jpg"  style="width:100%;" class="h-100" alt="Old kings head kirton logo branding sign design by root studio lincoln" />
+              </picture>
+              <figcaption class="c-tile__overlay h-100">
+                <div class="c-panel c-panel--darkover">
+                  <header class="c-panel__header">
+                    <h3 class="c-panel__title font2">GOVERMENT EVENTS</h3>
+                  </header>
+                  <div class="c-panel__content">
+                    <span class="c-btn-text c-btn-text--reverse">
+                      A creative brand for a unique and historic cafe and B&amp;B near Boston
+                    </span>
+                  </div>
+                </div>
+              </figcaption>
+            </a>
+          </figure>
+        </div>
+      </div>
+      <div class="o-base text-md-center py-5">
+        <div class="c-action-bar">
+          <div class="c-action-bar__slot">
+
+            <a href="/work" class="">Know More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section class="bg-light">
+  <div class="py-5">
+    <carousel :items="6" :nav="false" :autoplay="true">
+      <img src="img/clients/gsk.jpg" class="focus px-1" alt="..." style="height:80px;width: auto;">
+      <img src="img/clients/pehal.jpg" class="focus px-1" alt="..." style="height:80px;width: auto;">
+      <img src="img/clients/ddb.png" class="focus px-1" alt="..." style="height:80px;width: auto;">
+      <img src="img/clients/reckitt-benckiser.jpg" class="focus px-1" alt="..." style="height:80px;width: auto;">
+      <img src="img/clients/sunpharma.png" class="focus px-1" alt="..." style="height:80px;width: auto;">
+      <img src="img/clients/terumo.png" class="focus px-1" alt="..." style="height:80px;width: auto;">
+      <img src="img/clients/thirtsy-beer.jpeg" class="focus px-1" alt="..." style="height:80px;width: auto;">
+    </carousel>
+  </div>
+</section>
+<section style="background-image: url('img/cross-lines-wallpaper.jpg');background-repeat: no-repeat;background-size: 100% 100%;">
+  <div class="py-3 container">
+    <div class="container text-md-center">
+      <h3 class="text-light text-md-center font2 fw-bolder display-5 mt-1">OUR WORK</h3>
+    </div>
+    <div class="row px-4 py-3 text-md-left  row-cols-1 row-cols-md-3 g-5">
+
+      <div class="col-md-4">
+        <div class="card hvrcard shadow-sm h-100" style="width: auto;">
+          <carousel :items="1" :nav="false" :autoplay="true" :dots="false">
+            <img src="img/portfolio/01-thumbnail.jpg" class="card-img-top" alt="..." style="width: 100%;">
+            <img src="img/portfolio/02-thumbnail.jpg" class="card-img-top" alt="..." style="width: 100%;">
+            <img src="img/portfolio/03-thumbnail.jpg" class="card-img-top" alt="..." style="width: 100%;">
+          </carousel>
+          <div class="card-body">
+            <h3 class="card-title  font2">Event Title</h3>
+            <p class="card-text">With Thirsty Fridays we hope to create a relaxed environment where coworkers can</p>
+            <button class="btn btn-primary" style="bottom: 20px;">Learn more</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card hvrcard shadow-sm h-100" style="width: auto;">
+          <carousel :items="1" :nav="false" :autoplay="true" :dots="false">
+            <img src="img/portfolio/01-thumbnail.jpg" class="card-img-top" alt="..." style="width: 100%;">
+            <img src="img/portfolio/02-thumbnail.jpg" class="card-img-top" alt="..." style="width: 100%;">
+            <img src="img/portfolio/03-thumbnail.jpg" class="card-img-top" alt="..." style="width: 100%;">
+          </carousel>
+          <div class="card-body">
+            <h3 class="card-title  font2">Event Title</h3>
+            <p class="card-text">With Thirsty Fridays we hope to create a relaxed environment where coworkers can</p>
+            <button class="btn btn-primary" style="bottom: 20px;">Learn more</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card hvrcard shadow-sm h-100" style="width: auto;">
+          <carousel :items="1" :nav="false" :autoplay="true" :dots="false">
+            <img src="img/portfolio/01-thumbnail.jpg" class="card-img-top" alt="..." style="width: 100%;">
+            <img src="img/portfolio/02-thumbnail.jpg" class="card-img-top" alt="..." style="width: 100%;">
+            <img src="img/portfolio/03-thumbnail.jpg" class="card-img-top" alt="..." style="width: 100%;">
+          </carousel>
+          <div class="card-body">
+            <h3 class="card-title  font2">Event Title</h3>
+            <p class="card-text">With Thirsty Fridays we hope to create a relaxed environment where coworkers can</p>
+            <button class="btn btn-primary" style="bottom: 20px;">Learn more</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="bg-light">
+  <div class="container text-md-center">
+    <div class="row">
+      <div class="my-5">
+        <h3 class=" font2">Testimonials</h3>
+        <carousel :items="1" :nav="false" :autoplay="true">
+          <div class="col-md-8 mx-auto">
+            <figure class="px-2 py-2 bg-light">
+              <blockquote class="blockquote ps-1">
+                <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integeuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<i class="fa fa-quote-right"></i></p>
+              </blockquote>
+              <br>
+              <figcaption class="blockquote-footer">
+                Someone famous in <cite title="Source Title">Source Title 1</cite>
+              </figcaption>
+            </figure>
+          </div>
+          
+          <div class="col-md-8 mx-auto">
+            <figure class="px-2 py-2 bg-light">
+              <blockquote class="blockquote ps-1">
+                <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integeuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<i class="fa fa-quote-right"></i></p>
+              </blockquote>
+              <br>
+              <figcaption class="blockquote-footer">
+                Someone famous in <cite title="Source Title">Source Title 2</cite>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="col-md-8 mx-auto">
+            <figure class="px-2 py-2 bg-light">
+              <blockquote class="blockquote ps-1">
+                <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integeuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<i class="fa fa-quote-right"></i></p>
+              </blockquote>
+              <br>
+              <figcaption class="blockquote-footer">
+                Someone famous in <cite title="Source Title">Source Title 3</cite>
+              </figcaption>
+            </figure>
+          </div>
+        </carousel>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="bg-primary">
+    <div class="container py-3 text-md-center">
+      <h1 class="text-secondary py-3 text-md-center font2 fw-bold">Contact us</h1>
+      <p class="text-white">To know more about our services get in touch.</p>
+      <div class="row">
+        <div class="col-md-4 px-2">
+          <div class="card bg-secondary h-100 homecontact">
+            <div class="card-body text-md-center">
+              <i class="text-secondary fa fa-map-marker-alt fa-2x  bg-light py-3 px-2 rounded-circle"></i>
+              <h4 class="font2 fw-bold lh-lg">Address</h4>
+              <p>Okhla Phase III<br>New Delhi, India</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 px-2">
+          <div class="card bg-secondary h-100 homecontact">
+            <div class="card-body text-md-center">
+              <i class="far bg-light text-secondary py-3 px-2 rounded-circle fa-envelope fa-2x"></i>
+              <h4 class="font2 fw-bold lh-lg">Email</h4>
+              <a class="link" href="mailto:hello@theexecutors.co.in">hello@theexecutors.co.in</a>
+              <a class="link" href="mailto:neha@theexecutors.co.in">neha@theexecutors.co.in</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 px-2">
+          <div class="card bg-secondary h-100 homecontact">
+            <div class="card-body text-md-center">
+              <i class="fa fa-mobile-alt fa-2x text-secondary bg-light py-3 px-2 rounded-circle"></i>
+              <h4 class="font2 fw-bold lh-lg">Phone</h4>
+              <a  class="link" href="tel:+919582223727">+91 9582223727</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-md-center">
+    <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=okhla&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><style>.mapouter{position:relative;text-align:right;height:300px;width:100%;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1080px;}</style></div></div>
+  </div>
+</section>
+</main>
+</div>
+<section class="bg-primary">
+  <div class="row text-md-center text-light pt-4">
+    <div class="col-md-3">
+      <ul  style="list-style: none;">
+        <h5 class="fw-bold">About us</h5>
+        <p class="">Executors are one of the best leading Brand communication & Entertainment company</p>
+        <li><a class="nav-link text-light" href="">Learn more</a></li>
+      </ul>
+    </div>
+    <div class="col-md-3">
+      <ul  style="list-style: none;">
+        <h5 class="fw-bold">Contact us</h5>
+        <li><a class="nav-link text-light" href="tel:+91 0000000000">+91 0000000000</a></li>
+        <li><a class="nav-link text-light" href="mailto:hello@theexecutors.co.in">hello@theexecutors.co.in</a></li>
+        <li><a class="nav-link text-light" href="mailto:neha@theexecutors.co.in">neha@theexecutors.co.in</a></li>
+      </ul>
+    </div>
+    <div class="col-md-3">
+      <ul  style="list-style: none;">
+        <h5 class="fw-bold">Our Bussiness</h5>
+        <li><a class="nav-link text-light" href="">Brand Activation</a></li>
+
+      </ul>
+    </div>
+    <div class="col-md-3">
+      <ul style="list-style: none;">
+        <h5 class="fw-bold">Work with us</h5>
+        <li><a class="nav-link text-light" href="">Form Link</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<footer class="bg-primary text-md-center">
+  <div class="py-3 text-light">
+    <p>Copyright © The Executors 2020</p>
+  </div>
+</footer>
+<script src="js/nav.js"></script>
+<script src="js/app.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
